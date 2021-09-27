@@ -33,4 +33,9 @@ public class CourseServiceimpl implements CourseService{
         }
         return c ;
     }
+
+    @Override
+    public void addCourse(Course cr) {
+        list.add(cr);
+    }
 }
