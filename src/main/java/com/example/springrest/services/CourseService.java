@@ -12,4 +12,9 @@ public interface CourseService {
     public Course getCourse(Long id);
 
     public void addCourse(Course cr);
+
+    public Course updateCourse(Course course);
+
+    public void deleteCourse(Long id);
+
 }
